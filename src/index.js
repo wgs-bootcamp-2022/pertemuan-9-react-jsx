@@ -16,7 +16,7 @@ function App(){
   return (
   <div>
     <h2>{new Date().toLocaleTimeString()}</h2>
-    <input type="number" mim ={5} max={25} style={{border:"3px solid", color:"red"}}/>
+    <input type="number" min ={5} max={25} style={{border:"3px solid", color:"red"}}/>
     <User nama="Yahya" pekerjaan="Programmer"/>
     <User nama="Zakaria" pekerjaan="Programmer"/>
   </div>
